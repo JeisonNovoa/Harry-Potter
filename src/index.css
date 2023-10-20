@@ -106,6 +106,7 @@ header .cart span {
 }
 .home img{
   width: 100%;
+  height: 25rem;
 }
 
 /*------------------PRODUCTOS------------------*/
@@ -139,7 +140,8 @@ header .cart span {
 }
 
 .product_img img{
-  width: 310px;
+  width: 275px;
+  height: 22rem;
 }
 
 .product_footer{
@@ -250,6 +252,12 @@ header .cart span {
   visibility: visible;
 }
 
+.remove_item,
+.cont{
+  position: relative;
+  top: 3.6rem;
+}
+
 .cart_close box-icon{
   display: inline-block;
   width: 50px;
@@ -279,6 +287,7 @@ header .cart span {
 
 .cart_item img{
   width: 9rem;
+  padding: 1.25rem;
 }
 
 .cart_item h3{
@@ -293,7 +302,6 @@ header .cart span {
   font-size: 2rem;
   font-weight: bold;
   text-align: start;
-  margin-left: -1rem;
 }
 
 .cart_item box-icon{
@@ -357,7 +365,7 @@ header .cart span {
   font-size: 3rem;
   width: 100%;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 0;
   font-family: Helvetica, sans-serif;
 }
 
@@ -380,47 +388,15 @@ header .cart span {
   cursor: pointer;
 }
 
-.details .grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem 1rem;
-  max-width: 350px;
-}
-
-.details .grid .new,
-.details .grid .size{
-  padding: 0.3rem 2rem;
-  border-radius: 8px;
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: white;
-}
-
-.details .grid .new{
-  background-color: #08a05c;
-}
-
-.details .grid .size{
-  background-color: #f1365b;
-  display: flex;
-}
-
-.details .grid .size select{
-  border: none;
-  outline: 0;
-  font-size: 1.5rem;
-  background-color: #f1265b;
-  color: white;
-  cursor: pointer;
-}
 .details img{
   min-height: 300px;
   object-fit: contain;
-  margin-top: -7rem;
+  margin-top: 2rem;
   z-index: -1;
-  width: 70%;
+  width: 27%;
   position: relative;
-  right: -10rem;
+  right: -25rem;
+  padding-bottom: 3rem;
 }
 
 .details .description{

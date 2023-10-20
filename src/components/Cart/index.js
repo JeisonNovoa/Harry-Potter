@@ -60,7 +60,7 @@ export const Cart = () => {
               }}
             >
               {" "}
-              Carrito Vacio
+              Empty cart
             </h2>
           ) : (
             <>
@@ -71,7 +71,7 @@ export const Cart = () => {
                     <h3>{product.title}</h3>
                     <p className="price">${product.price}</p>
                   </div>
-                  <div>
+                  <div className="cont">
                     <box-icon
                       name="up-arrow"
                       type="solid"
